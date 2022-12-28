@@ -4168,6 +4168,7 @@ input[type="password"]::-ms-reveal {
   background: #7adfe8;
   padding: 57px 0;
   min-height: 1150px;
+  padding-bottom: 4em;
 }
 .wrapper-new .wrapper-holder:after {
   top: 0;
@@ -4193,6 +4194,7 @@ input[type="password"]::-ms-reveal {
 .wrapper-new .holder-new {
   z-index: 99;
   position: relative;
+  padding-bottom: 18em;
 }
 
 .btn-holder-top {
@@ -9035,7 +9037,7 @@ div.ck-editor__editable {
   }
   .round-circle {
     position: relative;
-    left: -50px;
+    left: 0px;
   }
   .session-list {
     min-height: 500px;
@@ -9077,6 +9079,9 @@ div.ck-editor__editable {
     background: url(../img/border-1-1.png) no-repeat;
     background-size: 100% 100%;
     transform: rotate(88deg);
+  }
+  .wrapper-new .holder-new {
+    padding-bottom: 0em;
   }
   #wrapper {
     flex-wrap: wrap;
@@ -9896,7 +9901,7 @@ div.ck-editor__editable {
     right: 114px;
   }
   .round-circle {
-    margin: 270px auto 60px;
+    margin: 270px auto;
   }
   .round-circle ul li:nth-child(9) {
     top: 5px;
@@ -11533,7 +11538,7 @@ div.ck-editor__editable {
     height: 70px;
   }
   .round-circle {
-    left: -70px;
+    left: -45px;
   }
   .sidebar__new__entry {
     padding: 0.7em 1em;
