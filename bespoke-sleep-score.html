@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SLEEPORA</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img//apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/site.webmanifest" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/slick.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper-new">
+      <div class="wrapper-holder resource">
+        <div class="holder-new">
+          <div class="search-box-new">
+            <button><img src="img/search-1.png" /></button>
+            <input type="search" placeholder="Search" />
+          </div>
+          <div class="sleep-score-holder">
+            <div class="sleep_frame">
+              <div class="sleep-box">
+                <span class="count">67</span>
+                <p>
+                  <em>67</em> is a very low score and this tells us that your
+                  sleep quality is very poor at the moment. It also indicates
+                  that you’re spending too much time in bed awake. People with a
+                  sleep score below 55 usually have a sleep disorder. A normal
+                  sleep score is anything above 85. After completing the
+                  Sleepora program you `should have a sleep score above 85. The
+                  maximum score is 100 but, because no one really sleeps through
+                  the night, you shouldn’t aim for 100.
+                </p>
+              </div>
+              <div class="bar-holder">
+                <div class="column">
+                  <span class="top-text">0</span>
+                  <span class="top-right-text">55</span>
+                  <div class="bar"></div>
+                  <span class="bottom-text">Severely Sleep Disordered</span>
+                </div>
+                <div class="column">
+                  <span class="top-text" style="opacity: 0">85</span>
+                  <img src="img/svg/location-3.svg" alt="image" />
+                  <span class="top-right-text">85</span>
+                  <div class="bar"></div>
+                  <span class="bottom-text">Sleep Disordered</span>
+                </div>
+                <div class="column">
+                  <span class="top-text" style="opacity: 0">85</span>
+                  <span class="top-right-text">100</span>
+                  <div class="bar"></div>
+                  <span class="bottom-text">Normal Sleep</span>
+                </div>
+              </div>
+            </div>
+            <div class="sleep-plan">
+              <strong>Your current sleeping plan</strong>
+              <div class="plan-columns">
+                <div class="column">
+                  <div class="img-box">
+                    <img src="img/moon 1.png" alt="image" />
+                  </div>
+                  <div class="txt-box">
+                    <p>Dont get into bed before</p>
+                    <span>01:00 am</span>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="img-box">
+                    <img src="img/sun 1.png" alt="image" />
+                  </div>
+                  <div class="txt-box">
+                    <p>Dont get up later than</p>
+                    <span>07:30 am</span>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="img-box">
+                    <img src="img/bed 2.png" alt="image" />
+                  </div>
+                  <div class="txt-box">
+                    <p>Dont stay in bed longer than</p>
+                    <span>6.5 Hours</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-bar new">
+            <div class="logo">
+              <a href="#"><img src="img/logo.png" /></a>
+            </div>
+            <a href="#" class="menu">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+            <div class="bar-holder">
+              <div class="chart-wrapper">
+                <figure
+                  class="pie-chart"
+                  data-percentage="75%"
+                  style="--percentage: 33%; --color: #22d27e"
+                ></figure>
+              </div>
+              <div class="alert-holder">
+                <a href="#">
+                  <img src="img/bell 2.png" alt="image" />
+                </a>
+              </div>
+              <div class="alert-holder time">
+                <a href="#">
+                  <strong>20:00</strong>
+                  <span>Bed Time</span>
+                </a>
+              </div>
+              <div class="alert-holder time">
+                <a href="#">
+                  <strong>08:00</strong>
+                  <span>Wake Time</span>
+                </a>
+              </div>
+              <div class="img-holder">
+                <img src="img/chatbot-nw.png" alt="image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer section end-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $("body").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
