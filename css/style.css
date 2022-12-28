@@ -5959,6 +5959,7 @@ input[type="password"]::-ms-reveal {
   max-width: 1294px;
   background: #ffffff;
   border-radius: 20px;
+  margin-left: 20px !important;
   margin: 120px auto 56px;
   padding: 20px 40px 40px 40px;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
@@ -7969,6 +7970,17 @@ div.ck-editor__editable {
   }
   #accordion .panel {
     max-width: 800px;
+  }
+}
+@media (max-width: 1630px) {
+  .prescription-holder {
+    margin: 0em 2em;
+  }
+  .prescription-holder .column-holder .column-3 {
+    width: 55%;
+  }
+  .prescription-holder .column-holder .column-3 p {
+    width: 60% !important;
   }
 }
 @media (max-width: 1500px) {
