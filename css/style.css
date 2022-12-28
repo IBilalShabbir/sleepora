@@ -5222,7 +5222,8 @@ input[type="password"]::-ms-reveal {
 
 /*Journal By Day*/
 .journal-holder {
-  max-width: 922px;
+  max-width: 820px;
+  padding-right: 5em;
   margin: 100px auto;
 }
 .journal-holder .journal-head {
@@ -8061,6 +8062,9 @@ div.ck-editor__editable {
     flex: 1;
     max-width: 100%;
   }
+  .journal-holder {
+    padding-right: 0em;
+  }
 }
 @media (max-width: 1350px) {
   .health-table {
@@ -8229,7 +8233,8 @@ div.ck-editor__editable {
   }
   .journal-holder {
     max-width: 100%;
-    margin: 100px 130px 0 30px;
+    margin: 100px 50px;
+    margin-bottom: 0em;
   }
   .middle-slide-holder {
     max-width: 660px;
@@ -9120,6 +9125,9 @@ div.ck-editor__editable {
   }
   .content {
     max-width: 100%;
+  }
+  .journal-holder {
+    margin-bottom: 7em;
   }
   .circle.insignt {
     left: 30px;
@@ -10885,7 +10893,7 @@ div.ck-editor__editable {
     font-size: 13px;
   }
   .journal-holder {
-    margin: 100px 70px 0 20px;
+    margin: 100px 20px;
   }
   .journal-holder .journal-head {
     font-size: 16px;
