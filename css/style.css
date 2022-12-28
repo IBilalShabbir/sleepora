@@ -9511,13 +9511,14 @@ div.ck-editor__editable {
     flex-wrap: wrap;
   }
   .bespoke-holder .bespoke-columns .column {
-    width: 48%;
+    width: 66%;
+    margin: 10px 0px;
   }
-  .bespoke-holder .bespoke-columns .column:first-child {
+  /* .bespoke-holder .bespoke-columns .column:first-child {
     width: 300px;
     display: block;
     margin: 0 auto 30px;
-  }
+  } */
   .prescription-holder {
     margin: 120px 100px 0 20px;
   }
@@ -9966,6 +9967,16 @@ div.ck-editor__editable {
   }
   .session-list {
     min-height: 380px;
+  }
+}
+
+@media (max-width: 750px) {
+  .sleep-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
   }
 }
 @media (max-width: 1355px) {
@@ -10572,7 +10583,7 @@ div.ck-editor__editable {
     width: 98%;
   }
   .bespoke-holder {
-    padding: 0 60px 0 10px;
+    padding: 10px;
   }
   .bespoke-holder .bespoke-columns .column {
     width: 98%;
@@ -10589,6 +10600,7 @@ div.ck-editor__editable {
   }
   .sleep-frame {
     padding: 20px 10px;
+    margin-bottom: 45px;
   }
   .sleep-frame .sleep-block em {
     width: 100%;
