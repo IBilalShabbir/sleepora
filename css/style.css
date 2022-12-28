@@ -10592,7 +10592,7 @@ div.ck-editor__editable {
   }
   .stick-holder {
     width: 270px;
-    margin: 0 auto;
+    margin: 50px auto;
   }
   .stick-holder.benefits .column:nth-child(3) .box-1:nth-child(2):after {
     left: 6px;
