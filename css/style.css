@@ -9534,6 +9534,7 @@ div.ck-editor__editable {
 
   .bespoke-holder .bespoke-columns {
     flex-wrap: wrap;
+    width: 100%;
   }
   .bespoke-holder .bespoke-columns .column {
     width: 66%;
