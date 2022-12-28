@@ -5781,7 +5781,7 @@ input[type="password"]::-ms-reveal {
 
 .sleep-score-holder {
   width: 970px;
-  margin: 260px auto 0;
+  margin: 260px auto;
 }
 .sleep-score-holder .sleep_frame {
   width: 100%;
@@ -5958,11 +5958,12 @@ input[type="password"]::-ms-reveal {
 .prescription-holder {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1294px;
+  width: 100%;
+  max-width: 1000px;
   background: #ffffff;
   border-radius: 20px;
   margin-left: 20px !important;
-  margin: 120px auto 56px;
+  margin: 140px auto;
   padding: 20px 40px 40px 40px;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
     8px 8px 20px rgba(0, 0, 0, 0.25);
@@ -7975,9 +7976,6 @@ div.ck-editor__editable {
   }
 }
 @media (max-width: 1630px) {
-  .prescription-holder {
-    margin: 0em 2em;
-  }
   .prescription-holder .column-holder .column-3 {
     width: 55%;
   }
@@ -8031,6 +8029,9 @@ div.ck-editor__editable {
   .video-slider iframe {
     width: 100%;
   }
+  .sleep-score-holder {
+    padding-right: 10em;
+  }
 }
 @media (max-width: 1399px) {
   .key-area {
@@ -8068,6 +8069,13 @@ div.ck-editor__editable {
   }
   .mind_holder {
     padding-right: 0em;
+  }
+  .sleep-score-holder {
+    padding-right: 0em;
+  }
+  .prescription-holder {
+    max-width: 100%;
+    margin-left: 0px !important;
   }
 }
 @media (max-width: 1350px) {
@@ -8186,7 +8194,7 @@ div.ck-editor__editable {
   }
   .sleep-score-holder {
     width: 86%;
-    margin: 120px 0 0 20px;
+    margin: 120px auto;
   }
   .sleep-score-holder .sleep-plan {
     width: 700px;
@@ -9104,9 +9112,11 @@ div.ck-editor__editable {
     background-size: 100% 100%;
     transform: rotate(88deg);
   }
+
   .wrapper-new .holder-new {
     padding-bottom: 0em;
   }
+
   #wrapper {
     flex-wrap: wrap;
     min-height: 660px;
@@ -9546,7 +9556,7 @@ div.ck-editor__editable {
     margin: 0 auto 30px;
   } */
   .prescription-holder {
-    margin: 120px 100px 0 20px;
+    margin: 120px auto;
   }
   .prescription-holder .column-1 {
     font-size: 16px;
@@ -10649,7 +10659,7 @@ div.ck-editor__editable {
     min-height: inherit;
   }
   .prescription-holder {
-    margin: 120px 66px 0 20px;
+    margin: 120px auto;
   }
   .prescription-holder .column-1 {
     font-size: 8px;
@@ -10719,7 +10729,7 @@ div.ck-editor__editable {
   }
   .sleep-score-holder {
     width: 79%;
-    margin: 120px 0 0 10px;
+    margin: 120px auto;
   }
   .sleep-score-holder .sleep-box p {
     font-size: 12px;
