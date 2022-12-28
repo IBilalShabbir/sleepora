@@ -439,6 +439,7 @@ img {
   z-index: 9;
   margin: 0px auto 0;
   width: 70%;
+  padding-right: 8em;
   position: relative;
 }
 .mind_holder .mind_columns {
@@ -8065,6 +8066,9 @@ div.ck-editor__editable {
   .journal-holder {
     padding-right: 0em;
   }
+  .mind_holder {
+    padding-right: 0em;
+  }
 }
 @media (max-width: 1350px) {
   .health-table {
@@ -8907,8 +8911,8 @@ div.ck-editor__editable {
     min-height: 950px;
   }
   .mind_holder {
-    width: 82%;
-    margin: 0 0 0 20px;
+    width: calc(100% - 2em);
+    margin: 0 auto;
   }
   .mind_holder .mind_columns .center-holder {
     width: 200px;
