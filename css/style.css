@@ -4099,7 +4099,6 @@ input[type="password"]::-ms-reveal {
   width: 302px;
   height: 302px;
   margin: 0 auto;
-  right: -80px;
   position: relative;
 }
 .new-circle ul {
@@ -6525,8 +6524,8 @@ input[type="password"]::-ms-reveal {
 /*HEALTH CHART TABLE*/
 
 .health-table {
-  width: 1078px;
-  padding: 30px 60px;
+  width: 1000px;
+  padding: 30px 30px;
   background: #ffffff;
   border-radius: 20px;
   margin: 260px auto 0;
@@ -7974,6 +7973,9 @@ div.ck-editor__editable {
   #accordion .panel {
     max-width: 800px;
   }
+  .health-table {
+    margin-left: 10em;
+  }
 }
 @media (max-width: 1630px) {
   .prescription-holder .column-holder .column-3 {
@@ -7984,6 +7986,9 @@ div.ck-editor__editable {
   }
   .anixety-holder {
     margin: 100px 0 0 30px;
+  }
+  .health-table {
+    margin-left: 5em;
   }
 }
 
@@ -8019,6 +8024,9 @@ div.ck-editor__editable {
   }
   .anixety-holder .anx-column span {
     font-size: 20px;
+  }
+  .health-table {
+    margin-left: 2em;
   }
   .calander-holder {
     max-width: 950px;
@@ -8065,6 +8073,9 @@ div.ck-editor__editable {
   .calander-holder {
     justify-content: space-between;
   }
+  .new-circle {
+    right: -78px;
+  }
   #accordion .panel {
     flex: 1;
     max-width: 100%;
@@ -8088,8 +8099,8 @@ div.ck-editor__editable {
 }
 @media (max-width: 1350px) {
   .health-table {
-    width: 88%;
-    margin: 100px 0 0 30px;
+    width: calc(100% - 2em);
+    margin: 100px auto;
   }
   .communicate-holder {
     max-width: 930px;
@@ -8807,9 +8818,9 @@ div.ck-editor__editable {
     margin: 0 20px;
   }
   .health-table {
-    width: 80%;
+    width: calc(100% - 1em);
     padding: 30px 20px;
-    margin: 100px 0 0 20px;
+    margin: 100px auto;
   }
   .health-table table th,
   .health-table table td {
@@ -10035,11 +10046,7 @@ div.ck-editor__editable {
     top: auto;
     border-radius: 50px;
   }
-  .sidebar__new__entry {
-    width: 100px;
-    height: 60px;
-    border-radius: 10px;
-  }
+
   .sidebar__new__logo {
     display: none;
   }
@@ -10052,6 +10059,8 @@ div.ck-editor__editable {
   }
   .sidebar__new__entry {
     margin-top: 0px;
+    width: 100px;
+    border-radius: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -10878,10 +10887,7 @@ div.ck-editor__editable {
   .health-table .slick-custom-arrow-left {
     left: 6px;
   }
-  .health-table {
-    width: 76%;
-    padding: 20px 10px;
-  }
+
   .health-table .btn-box {
     margin: 0 0 30px;
   }
