@@ -7991,7 +7991,9 @@ div.ck-editor__editable {
   #accordion .panel {
     max-width: 540px;
   }
-
+  .alert-section {
+    margin: 260px 0 100px 30px;
+  }
   .prescription-holder .p-holder:nth-child(2) .column-1 {
     width: 234px;
   }
@@ -8066,6 +8068,9 @@ div.ck-editor__editable {
   #accordion .panel {
     flex: 1;
     max-width: 100%;
+  }
+  .alert-section {
+    margin: 260px auto;
   }
   .journal-holder {
     padding-right: 0em;
@@ -11611,7 +11616,9 @@ div.ck-editor__editable {
   }
   .sidebar__new__entry {
     padding: 0.7em 1em;
+    width: 50px;
   }
+
   .faq-holder .left-column {
     width: 100%;
     margin: 0 auto 100px;
