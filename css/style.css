@@ -4844,7 +4844,7 @@ input[type="password"]::-ms-reveal {
 
 /*INSIGHT*/
 .middle-slide-holder {
-  max-width: 800px;
+  max-width: 750px;
   margin: 180px auto;
 }
 
