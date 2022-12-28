@@ -7937,6 +7937,7 @@ div.ck-editor__editable {
   margin-top: 1em;
   color: white;
   display: flex;
+  align-items: center;
   padding: 0.7em 1.5em;
   border-radius: 50px;
   background-color: rgba(244, 244, 244, 0.1);
@@ -9985,10 +9986,15 @@ div.ck-editor__editable {
     flex-direction: row;
     height: fit-content;
     bottom: 0px;
-    padding: 1em 10em;
+    padding: 0.5em 10em;
     justify-content: space-between;
     top: auto;
     border-radius: 50px;
+  }
+  .sidebar__new__entry {
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
   }
   .sidebar__new__logo {
     display: none;
@@ -10002,22 +10008,30 @@ div.ck-editor__editable {
   }
   .sidebar__new__entry {
     margin-top: 0px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .sidebar__new__entry svg {
     margin-right: 0em;
+    margin-bottom: 0.2em;
   }
-  .sidebar__new__entry span {
-    display: none;
-  }
+
   .sidebar__new__entry__reverse {
     display: none;
   }
 }
+@media (max-width: 900px) {
+  .sidebar__new__entry {
+    width: 60px;
+  }
+}
 @media (max-width: 700px) {
   .sidebar__new {
-    padding: 1em 2em;
+    padding: 0.5em 2em;
+  }
+  .sidebar__new__entry span {
+    font-size: 12px;
   }
 }
 @media (max-width: 575px) {
