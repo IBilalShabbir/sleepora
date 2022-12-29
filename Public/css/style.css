@@ -8026,6 +8026,9 @@ div.ck-editor__editable {
 
 <<<<<<< Updated upstream
 @media (max-width: 1500px) {
+  .communicate-holder {
+    max-width: 900px;
+  }
   #accordion .panel {
     max-width: 540px;
   }
@@ -8100,6 +8103,9 @@ div.ck-editor__editable {
     width: 64%;
     margin: 60px 0 0 26%;
   }
+  .communicate-holder{
+    max-width: 800px;
+  }
 }
 
 @media (max-width: 1355px) {
@@ -8152,6 +8158,9 @@ div.ck-editor__editable {
   }
 }
 @media (max-width: 1299px) {
+  .communicate-holder {
+    max-width: 720px;
+  }
   .dash-box .d-top-holder {
     flex-wrap: wrap;
   }
