@@ -5097,6 +5097,7 @@ input[type="password"]::-ms-reveal {
 .bespoke-holder {
   max-width: 900px;
   margin: 20px auto 0;
+  padding-right: 5em;
 }
 .bespoke-holder .bespoke-columns {
   display: flex;
@@ -8120,6 +8121,9 @@ div.ck-editor__editable {
   }
   .new-circle {
     right: -50px;
+  }
+  .bespoke-holder {
+    padding-right: 0em;
   }
   #accordion .panel {
     flex: 1;
