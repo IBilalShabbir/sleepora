@@ -5735,9 +5735,9 @@ input[type="password"]::-ms-reveal {
 .communicate-holder {
   display: flex;
   min-height: 480px;
-  max-width: 1070px;
+  max-width: 950px;
   align-items: center;
-  margin: 300px auto 0;
+  margin: 100px auto 0;
   justify-content: space-between;
 }
 .communicate-holder .column {
@@ -8025,11 +8025,18 @@ div.ck-editor__editable {
   .carousel-slider-holder {
     width: 800px;
   }
+  .communicate-holder {
+    max-width: 800px;
+  }
 }
 
 @media (max-width: 1500px) {
   .communicate-holder {
     max-width: 900px;
+  }
+  .communicate-holder__active {
+    max-width: 800px;
+    margin-left: 150px;
   }
   #accordion .panel {
     max-width: 540px;
@@ -8142,6 +8149,9 @@ div.ck-editor__editable {
   }
   .carousel-slider-holder {
     margin: 100px auto;
+  }
+  .communicate-holder__active {
+    margin-left: auto;
   }
 }
 @media (max-width: 1350px) {
@@ -8344,10 +8354,7 @@ div.ck-editor__editable {
   .key-area .three-columns {
     width: 100%;
   }
-  .communicate-holder {
-    max-width: 830px;
-    margin: 300px 0 0 20px;
-  }
+
   .communicate-holder .column.center .center-chat img.curve-1 {
     left: -20px;
   }
@@ -8752,7 +8759,8 @@ div.ck-editor__editable {
     bottom: 78px;
   }
   .holder-new h2 {
-    max-width: 52%;
+    max-width: 100%;
+    text-align: center;
   }
   .bespoke-holder .bespoke-columns .column {
     width: 32%;
@@ -8936,7 +8944,7 @@ div.ck-editor__editable {
   }
   .communicate-holder {
     max-width: 830px;
-    margin: 200px 0 0 20px;
+    margin: 200px auto;
   }
   .communicate-holder .column.center {
     width: auto;
@@ -9960,7 +9968,7 @@ div.ck-editor__editable {
   }
   .communicate-holder {
     max-width: 830px;
-    margin: 300px 0 0 20px;
+    margin: 100px auto;
   }
   .communicate-holder .column.center .center-chat img.curve-1 {
     left: -20px;
@@ -10355,7 +10363,8 @@ div.ck-editor__editable {
     bottom: 78px;
   }
   .holder-new h2 {
-    max-width: 52%;
+    max-width: 100%;
+    text-align: center;
   }
   .bespoke-holder .bespoke-columns .column {
     width: 32%;
@@ -10539,7 +10548,7 @@ div.ck-editor__editable {
   }
   .communicate-holder {
     max-width: 830px;
-    margin: 200px 0 0 20px;
+    margin: 100px auto;
   }
   .communicate-holder .column.center {
     width: auto;
@@ -13275,7 +13284,7 @@ div.ck-editor__editable {
   }
   .communicate-holder {
     max-width: 100%;
-    margin: 160px 60px 0 20px;
+    margin: 160px auto;
   }
   .communicate-holder .column {
     width: 200px;
