@@ -8631,6 +8631,16 @@ div.ck-editor__editable {
     font-size: 22px;
   }
 }
+@media (max-width: 1580px) {
+  .support-holder {
+    margin-right: 30em !important;
+  }
+}
+@media (max-width: 1355px) {
+  .support-holder {
+    margin: 0 auto !important;
+  }
+}
 @media (max-width: 991px) {
   .video_section .video_holder .text-box {
     width: 170px;
@@ -11715,6 +11725,25 @@ div.ck-editor__editable {
   .left-bar {
     max-width: 100%;
     width: calc(100% - 1em);
+  }
+}
+@media (max-width: 530px) {
+  .support-holder .column {
+    width: 63%;
+    margin-right: 2em;
+  }
+}
+@media (max-width: 450px) {
+  .support-holder .column {
+    width: 100%;
+    margin-left: 0em;
+  }
+  .support-holder .column span {
+    font-size: 14px;
+    line-height: 9px;
+    padding: 25px 5px;
+    width: 60%;
+    margin-right: -2em;
   }
 }
 @media (max-width: 400px) {
