@@ -5800,7 +5800,7 @@ input[type="password"]::-ms-reveal {
 
 .sleep-score-holder {
   width: 970px;
-  margin: 260px auto;
+  margin: 150px auto;
 }
 .sleep-score-holder .sleep_frame {
   width: 100%;
@@ -5808,12 +5808,13 @@ input[type="password"]::-ms-reveal {
   border-radius: 10px;
   background: #ffffff;
   padding: 29px 87px 43px 52px;
-  /*box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25), 8px 8px 20px rgba(0, 0, 0, 0.25);*/
-  box-shadow: -5px -4px 9px 2px rgb(255 255 255 / 50%),
-    4px 4px 6px rgb(104 132 157 / 20%);
+  box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
+    8px 8px 20px rgba(0, 0, 0, 0.25);
 }
 .sleep-score-holder .sleep_frame .bar-holder {
+  width: 100%;
   display: flex;
+  align-items: center;
 }
 .sleep-score-holder .sleep_frame .bar-holder .column {
   width: 55%;
@@ -5913,7 +5914,7 @@ input[type="password"]::-ms-reveal {
   color: #22a5ee;
 }
 .sleep-score-holder .sleep-plan {
-  width: 850px;
+  width: 830px;
   margin: 0 auto;
   padding: 20px 30px;
   background: #ffffff;
@@ -8310,7 +8311,8 @@ div.ck-editor__editable {
     margin: 100px auto;
   }
   .sleep-score-holder {
-    width: 86%;
+    width: calc(100% - 1em);
+    max-width: 100%;
     margin: 120px auto;
   }
   .sleep-score-holder .sleep-plan {
@@ -8824,9 +8826,7 @@ div.ck-editor__editable {
   .prescription-holder .column-holder .column-2 span {
     font-size: 18px;
   }
-  .sleep-score-holder {
-    width: 82%;
-  }
+
   .sleep-score-holder .sleep_frame {
     padding: 30px 30px 20px 20px;
   }
@@ -9926,10 +9926,7 @@ div.ck-editor__editable {
     max-width: 830px;
     margin: 100px auto;
   }
-  .sleep-score-holder {
-    width: 86%;
-    margin: 120px auto;
-  }
+
   .sleep-score-holder .sleep-plan {
     width: 700px;
   }
@@ -10449,9 +10446,7 @@ div.ck-editor__editable {
   .prescription-holder .column-holder .column-2 span {
     font-size: 18px;
   }
-  .sleep-score-holder {
-    width: 82%;
-  }
+
   .sleep-score-holder .sleep_frame {
     padding: 30px 30px 20px 20px;
   }
@@ -11344,9 +11339,7 @@ div.ck-editor__editable {
   .prescription-holder .column-holder .column-2 span {
     margin: 0 0 0 -45px;
   }
-  .sleep-score-holder {
-    width: 80%;
-  }
+
   .sleep-score-holder .sleep-box p {
     font-size: 14px;
     line-height: 20px;
@@ -11830,6 +11823,10 @@ div.ck-editor__editable {
     width: 100%;
     height: 250px;
     margin: 0 0 20px;
+  }
+  .sleep-score-holder .sleep_frame .bar-holder .column .bottom-text {
+    white-space: nowrap;
+    word-break: normal;
   }
   /*#wrapper{
 =======
@@ -13002,10 +12999,7 @@ div.ck-editor__editable {
     line-height: 20px;
     border-radius: 2px;
   }
-  .sleep-score-holder {
-    width: 79%;
-    margin: 120px auto;
-  }
+
   .sleep-score-holder .sleep-box p {
     font-size: 12px;
     line-height: 16px;
@@ -14509,10 +14503,7 @@ div.ck-editor__editable {
     line-height: 20px;
     border-radius: 2px;
   }
-  .sleep-score-holder {
-    width: 79%;
-    margin: 120px auto;
-  }
+
   .sleep-score-holder .sleep-box p {
     font-size: 12px;
     line-height: 16px;
@@ -15438,6 +15429,10 @@ div.ck-editor__editable {
     width: 100%;
     max-width: fit-content;
     margin: 0 auto;
+  }
+  .sleep-score-holder .sleep_frame .bar-holder .column .bottom-text {
+    white-space: normal;
+    word-break: break-word;
   }
 }
 @media (max-width: 400px) {
