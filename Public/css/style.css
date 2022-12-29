@@ -5062,7 +5062,7 @@ input[type="password"]::-ms-reveal {
 }
 .stress-holder .stress-box strong {
   color: #7995ca;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 500;
   line-height: 47px;
   font-style: normal;
@@ -5074,9 +5074,9 @@ input[type="password"]::-ms-reveal {
 }
 .stress-holder .stress-box span {
   color: #2952e2;
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 38px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 30px;
   font-style: normal;
   text-align: center;
   letter-spacing: 0.015em;
@@ -8929,6 +8929,10 @@ div.ck-editor__editable {
   }
   .stress-holder .stress-box {
     padding: 10px 40px 10px 26px;
+    width: calc(100% - 1em);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
   .stress-holder .stress-box span,
   .stress-holder .stress-box strong {
@@ -10552,9 +10556,7 @@ div.ck-editor__editable {
     max-width: 100%;
     margin: 40px auto;
   }
-  .stress-holder .stress-box {
-    padding: 10px 40px 10px 26px;
-  }
+
   .stress-holder .stress-box span,
   .stress-holder .stress-box strong {
     font-size: 20px;
@@ -14752,7 +14754,7 @@ div.ck-editor__editable {
     transform: rotate(95deg);
   }
   .stress-holder {
-    margin: 40px 66px 0 20px;
+    margin: 40px auto;
   }
   .stress-holder .stress-box {
     padding: 10px 20px 10px 10px;
