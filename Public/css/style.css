@@ -8024,7 +8024,7 @@ div.ck-editor__editable {
   }
 }
 
-<<<<<<< Updated upstream
+
 @media (max-width: 1500px) {
   .communicate-holder {
     max-width: 900px;
@@ -9687,7 +9687,7 @@ div.ck-editor__editable {
       margin-left: 1em;
       width: 75%;
     }
-  }
+  
   @media (max-width: 1399px) {
     .key-area {
       max-width: 90%;
@@ -11252,7 +11252,7 @@ div.ck-editor__editable {
     display: block;
     margin: 0 auto 30px;
   } */
-<<<<<<< Updated upstream
+
   .prescription-holder {
     margin: 120px auto;
   }
@@ -12212,7 +12212,7 @@ div.ck-editor__editable {
       line-height: 14px;
       padding: 3px 10px;
     }
-  }
+  
   @media (max-width: 648px) {
     .stick-holder {
       max-width: 440px;
@@ -12329,7 +12329,6 @@ div.ck-editor__editable {
     /*.left-menu{
     top: 0;
   }*/
-<<<<<<< Updated upstream
   .video-wrapper .menu {
     top: 24px;
   }
@@ -13841,9 +13840,8 @@ div.ck-editor__editable {
 }
 @media (max-width: 400px) {
   .stick-holder {
-    width: 270px;
+    width: 270px;}
     /* margin: 120px 0 0 20px; */
-=======
     .video-wrapper .menu {
       top: 24px;
     }
@@ -15400,6 +15398,5 @@ div.ck-editor__editable {
       width: 270px;
       /* margin: 120px 0 0 20px; */
     }
->>>>>>> Stashed changes
-  }
+
 }
