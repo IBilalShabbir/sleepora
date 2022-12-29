@@ -7945,6 +7945,7 @@ div.ck-editor__editable {
   border-radius: 50px;
   background-color: rgba(244, 244, 244, 0.1);
 }
+
 .sidebar__new__entry span {
   text-align: center;
 }
@@ -7966,6 +7967,7 @@ div.ck-editor__editable {
   background-color: white;
   color: #128ca9;
 }
+
 /*Media Quries*/
 
 @media (max-width: 1699px) {
@@ -8077,7 +8079,7 @@ div.ck-editor__editable {
     justify-content: space-between;
   }
   .new-circle {
-    right: -78px;
+    right: -50px;
   }
   #accordion .panel {
     flex: 1;
@@ -8374,6 +8376,9 @@ div.ck-editor__editable {
   .new-circle ul li:nth-child(8) {
     top: -1217px;
     left: -141px;
+  }
+  .new-circle {
+    margin: 50px auto;
   }
   .video-slider {
     width: 83%;
@@ -9975,9 +9980,6 @@ div.ck-editor__editable {
   .anixety-holder .anx-column .desktop-img {
     display: none !important;
   }
-  .new-circle {
-    right: 0;
-  }
   .anixety-holder .anx-column img {
     width: auto;
   }
@@ -11160,7 +11162,8 @@ div.ck-editor__editable {
   .new-circle {
     width: 80px;
     height: 80px;
-    margin: 50px auto 0;
+    margin: 50px auto;
+    right: 0;
   }
   .new-circle ul li {
     left: -2px;
