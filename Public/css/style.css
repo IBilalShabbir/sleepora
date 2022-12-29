@@ -4275,8 +4275,9 @@ input[type="password"]::-ms-reveal {
 }
 
 .slider_holder {
-  max-width: 80%;
-  margin: 80px auto 0;
+  width: 100%;
+  max-width: 900px;
+  margin: 80px auto;
 }
 .slider_holder .s-box {
   background: #91959b;
@@ -4375,6 +4376,8 @@ input[type="password"]::-ms-reveal {
   background-size: 100% 100%;
 }
 .slider-for .slick-content {
+  width: 100%;
+  max-width: 900px;
   display: flex;
   /*flex-wrap: wrap;*/
   background: #fff;
@@ -8078,7 +8081,7 @@ div.ck-editor__editable {
   }
   .slider_holder {
     max-width: 88%;
-    margin: 80px 120px 0 60px;
+    margin: 80px auto;
   }
   .video-slider {
     width: 68%;
@@ -8158,6 +8161,13 @@ div.ck-editor__editable {
   }
   .stress-holder {
     margin: 40px auto;
+  }
+  .slider_holder .left-slide-holde .slider-nav {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  .slider-for .slick-content {
+    max-width: 100%;
   }
 }
 @media (max-width: 1350px) {
@@ -8869,7 +8879,7 @@ div.ck-editor__editable {
   }
   .slider_holder {
     max-width: 90%;
-    margin: 120px 90px 0 0;
+    margin: 120px auto;
   }
   .slider_holder .left-slide-holde .slider-nav {
     width: 500px;
@@ -10496,10 +10506,7 @@ div.ck-editor__editable {
   .slider_holder .average-box {
     margin: 20px auto;
   }
-  .slider_holder {
-    max-width: 90%;
-    margin: 120px 90px 0 0;
-  }
+
   .slider_holder .left-slide-holde .slider-nav {
     width: 500px;
     margin: 0 auto 20px;
@@ -11902,9 +11909,7 @@ div.ck-editor__editable {
 .right-bar .bar-holder .alert-holder.time a span {
   font-size: 9px;
 }
-.slider_holder .left-slide-holde .slider-nav {
-  width: 350px;
-}
+
 .dash-box h1 {
   font-size: 26px;
   line-height: 36px;
@@ -13042,8 +13047,9 @@ div.ck-editor__editable {
     line-height: 12px;
   }
   .slider_holder {
-    width: 82%;
-    margin: 120px 60px 0 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 120px auto;
   }
   .slider_holder .slick-track {
     height: auto;
@@ -14548,8 +14554,9 @@ div.ck-editor__editable {
     line-height: 12px;
   }
   .slider_holder {
-    width: 82%;
-    margin: 120px 60px 0 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 120px auto;
   }
   .slider_holder .slick-track {
     height: auto;
