@@ -11163,6 +11163,8 @@ div.ck-editor__editable {
     font-size: 8px;
     line-height: 9px;
     padding: 10px 5px;
+    max-width: 200px;
+    margin: 0 auto;
   }
   .circle {
     width: 120px;
