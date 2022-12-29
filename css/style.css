@@ -7945,6 +7945,9 @@ div.ck-editor__editable {
   border-radius: 50px;
   background-color: rgba(244, 244, 244, 0.1);
 }
+.sidebar__new__entry span {
+  text-align: center;
+}
 .sidebar__new__entry svg {
   margin-right: 0.5em;
 }
