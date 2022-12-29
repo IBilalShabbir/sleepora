@@ -5981,7 +5981,6 @@ input[type="password"]::-ms-reveal {
   max-width: 1000px;
   background: #ffffff;
   border-radius: 20px;
-  margin-left: 20px !important;
   margin: 140px auto;
   padding: 20px 40px 40px 40px;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
@@ -8031,6 +8030,9 @@ div.ck-editor__editable {
   .communicate-holder {
     max-width: 800px;
   }
+  .prescription-holder {
+    margin: 140px auto 0 100px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -8099,6 +8101,9 @@ div.ck-editor__editable {
   .stress-holder {
     margin: 40px 0 0 30px;
   }
+  .prescription-holder {
+    margin: 140px auto 0 40px;
+  }
 }
 @media (max-width: 1399px) {
   .key-area {
@@ -8123,6 +8128,9 @@ div.ck-editor__editable {
   }
   .communicate-holder {
     max-width: 800px;
+  }
+  .prescription-holder {
+    margin: 140px auto 0 20px;
   }
 }
 
@@ -8149,10 +8157,7 @@ div.ck-editor__editable {
   .sleep-score-holder {
     padding-right: 0em;
   }
-  .prescription-holder {
-    max-width: 100%;
-    margin-left: 0px !important;
-  }
+
   .carousel-slider-holder {
     margin: 100px auto;
   }
@@ -9772,8 +9777,9 @@ div.ck-editor__editable {
     padding-right: 0em;
   }
   .prescription-holder {
+    width: calc(100% - 1em);
     max-width: 100%;
-    margin-left: 0px !important;
+    margin: 100px auto;
   }
   .left-bar {
     /* top: auto;
@@ -10415,7 +10421,6 @@ div.ck-editor__editable {
   }
   .prescription-holder {
     padding: 20px;
-    margin: 120px 120px 0 20px;
   }
   .prescription-holder .column-1 {
     font-size: 22px;
