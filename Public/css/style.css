@@ -4283,8 +4283,8 @@ input[type="password"]::-ms-reveal {
 }
 
 .slider_holder {
-  max-width: 80%;
-  margin: 80px auto 0;
+  max-width: 70%;
+  margin: 0em 2em;
 }
 .slider_holder .s-box {
   background: #91959b;
@@ -4389,7 +4389,18 @@ input[type="password"]::-ms-reveal {
   border-radius: 20px;
   padding: 20px 30px 20px 20px;
   justify-content: space-between;
+  margin-right: 2em;
 }
+/* @media(max-width:1350px){
+  .slider-for .slick-content {
+    margin-right: 20em !important;
+  }
+}
+@media(max-width:1200px){
+  .slider-for .slick-content {
+    margin-right: 10em !important;
+  }
+} */
 .slider-for .slick-content .left-content {
   width: 66%;
 }
@@ -8093,7 +8104,6 @@ div.ck-editor__editable {
   }
   .slider_holder {
     max-width: 88%;
-    margin: 80px 120px 0 60px;
   }
   .video-slider {
     max-width: 700px;
