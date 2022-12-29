@@ -8093,6 +8093,9 @@ div.ck-editor__editable {
   .carousel-slider-holder {
     margin: 100px 0 0 150px;
   }
+  .stress-holder {
+    margin: 40px 0 0 30px;
+  }
 }
 @media (max-width: 1399px) {
   .key-area {
@@ -8152,6 +8155,9 @@ div.ck-editor__editable {
   }
   .communicate-holder__active {
     margin-left: auto;
+  }
+  .stress-holder {
+    margin: 40px auto;
   }
 }
 @media (max-width: 1350px) {
@@ -8919,7 +8925,7 @@ div.ck-editor__editable {
   }
   .stress-holder {
     max-width: 100%;
-    margin: 40px 120px 0 30px;
+    margin: 40px auto;
   }
   .stress-holder .stress-box {
     padding: 10px 40px 10px 26px;
@@ -10544,7 +10550,7 @@ div.ck-editor__editable {
   }
   .stress-holder {
     max-width: 100%;
-    margin: 40px 120px 0 30px;
+    margin: 40px auto;
   }
   .stress-holder .stress-box {
     padding: 10px 40px 10px 26px;
@@ -13240,7 +13246,7 @@ div.ck-editor__editable {
     transform: rotate(95deg);
   }
   .stress-holder {
-    margin: 40px 66px 0 20px;
+    margin: 40px auto;
   }
   .stress-holder .stress-box {
     padding: 10px 20px 10px 10px;
