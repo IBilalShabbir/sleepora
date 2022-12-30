@@ -4295,8 +4295,8 @@ input[type="password"]::-ms-reveal {
 
 .slider_holder {
   width: 100%;
-  max-width: 950px;
-  margin: 80px auto;
+  max-width: 80%;
+  margin: 80px auto 0;
 }
 .slider_holder .s-box {
   background: #91959b;
@@ -8179,7 +8179,11 @@ div.ck-editor__editable {
     margin: 100px auto 0 100px;
   }
 }
-
+@media (max-width: 1580px) {
+  .support-holder {
+    margin-right: 30em !important;
+  }
+}
 @media (max-width: 1500px) {
   .communicate-holder {
     max-width: 900px;
@@ -8225,8 +8229,7 @@ div.ck-editor__editable {
     margin: 80px auto;
   }
   .video-slider {
-    width: 100%;
-    max-width: 780px;
+    width: 56%;
     margin: 60px 0 0 22%;
   }
   .video-slider iframe {
@@ -8286,9 +8289,15 @@ div.ck-editor__editable {
   .new-circle {
     right: -50px;
   }
+  .wrapper-new .holder-new {
+    padding-bottom: 10em;
+  }
   #accordion .panel {
     flex: 1;
     max-width: 100%;
+  }
+  .support-holder {
+    margin: 0 auto !important;
   }
   .faq-holder {
     max-width: 100%;
@@ -8310,6 +8319,7 @@ div.ck-editor__editable {
   .carousel-slider-holder {
     margin: 100px auto;
   }
+
   .communicate-holder__active {
     margin-left: auto;
   }
@@ -8333,6 +8343,12 @@ div.ck-editor__editable {
   }
   .anixety-holder {
     margin: 100px auto;
+  }
+  .editor_holder .left-img span {
+    font-size: 12px;
+  }
+  .editor_holder .home input[type="submit"] {
+    margin-top: 40px;
   }
 }
 @media (max-width: 1350px) {
@@ -8393,6 +8409,25 @@ div.ck-editor__editable {
     width: 250px;
     height: 250px;
   }
+  .editor_holder {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1580px) {
+  .support-holder {
+    margin-right: 30em !important;
+  }
+}
+
+@media (max-width: 1380px) {
+  .excersice-video-holder .video-columns .column .video-box span {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 8px;
+    padding: 5px 8px;
+  }
 }
 @media (max-width: 1250px) {
   .video_section {
@@ -8402,6 +8437,9 @@ div.ck-editor__editable {
     left: 30px;
     top: 100px;
     position: absolute;
+  }
+  .pages {
+    padding: 0px;
   }
 }
 @media (max-width: 1199px) {
@@ -8616,9 +8654,9 @@ div.ck-editor__editable {
     margin: 50px auto;
   }
   .video-slider {
-    width: 83%;
+    width: 81%;
     max-width: 100%;
-    margin: 60px 0 0 38px;
+    margin: 60px auto;
   }
   /*.tab-holder{
     min-height: 560px;
@@ -9813,7 +9851,7 @@ div.ck-editor__editable {
     width: 66%;
     margin: 10px 0px;
   }
-  /* .bespoke-holder .bespoke-columns .column:first-child {
+  /* /* .bespoke-holder .bespoke-columns .column:first-child {
 =======
 @media (max-width: 760px) {
   .excersice-video-holder {
@@ -9866,6 +9904,7 @@ div.ck-editor__editable {
       max-width: 700px;
       /* margin: 60px 0 0 23%; */
 }
+*/ 
 .video-slider iframe {
   width: 100%;
 }
@@ -9974,7 +10013,9 @@ div.ck-editor__editable {
   }
   .left-bar {
     margin-top: 2em;
+    left: 0;
   }
+
   .slider-for .slick-content .left-content {
     margin-right: 1.5em;
   }
@@ -11017,7 +11058,9 @@ div.ck-editor__editable {
     background-size: 100% 100%;
     transform: rotate(88deg);
   }
-
+  .slick-track {
+    top: 140px;
+  }
   .wrapper-new .holder-new {
     padding-bottom: 10em;
   }
@@ -11788,11 +11831,9 @@ div.ck-editor__editable {
     width: 200px;
     margin: 0 auto;
   }
-  .editor_holder .home {
-    width: 94%;
-  }
+
   .editor_holder {
-    margin: 60px auto 0;
+    margin: 60px auto !important;
   }
   .right-bar .logo {
     width: 110px;
@@ -11976,6 +12017,7 @@ div.ck-editor__editable {
     height: 250px;
     margin: 0 0 20px;
   }
+
   .sleep-score-holder .sleep_frame .bar-holder .column .bottom-text {
     white-space: nowrap;
     word-break: normal;
@@ -12314,9 +12356,7 @@ div.ck-editor__editable {
   width: 200px;
   margin: 0 auto;
 }
-.editor_holder .home {
-  width: 94%;
-}
+
 .editor_holder {
   margin: 60px auto 0;
 }
@@ -12509,10 +12549,12 @@ div.ck-editor__editable {
     height: 250px;
     margin: 0 0 20px;
   }
-  /*#wrapper{
->>>>>>> Stashed changes
-    overflow: visible;
-  }*/
+  .video-slider iframe {
+    height: 100%;
+    min-height: 220px;
+    height: 220px;
+  }
+
   .search-frame {
     padding: 0 20px;
   }
