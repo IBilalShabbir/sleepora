@@ -481,9 +481,13 @@ img {
   align-items: center;
   justify-content: space-between;
   background: #ffffff;
-  box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
-    8px 8px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: -8px -8px 20px rgba(89, 104, 128, 0.25),
+    8px 8px 20px rgba(52, 45, 45, 0.25);
   border-radius: 100px;
+}
+.mind_holder .mind_columns .column .holder_1:hover {
+  box-shadow: -8px -8px 20px rgba(123, 139, 160, 0.766),
+    8px 8px 20px rgba(0, 0, 0, 0.25);
 }
 .mind_holder .mind_columns .column .holder_1 span {
   font-weight: 500;
@@ -844,6 +848,10 @@ img {
   font-size: 20px;
   max-width: 95%;
 }
+#faq .btn-header-link strong:hover {
+  background-color: #004e85;
+}
+
 #faq .card-body {
   padding: 10px 0;
 }
@@ -3931,6 +3939,10 @@ input[type="password"]::-ms-reveal {
     inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25),
     inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
 }
+.register-holder .column-holder .create:hover {
+  background: #7d98ca;
+}
+
 .register-holder .column-holder .social-list {
   padding: 0;
   display: flex;
@@ -4678,8 +4690,7 @@ input[type="password"]::-ms-reveal {
     4px 4px 6px rgba(104, 132, 157, 0.2);
 }
 .slider-for .slick-content .right-content .btn-holder a:hover {
-  color: #d1deed;
-  background: #000;
+  background: #a4b2c2;
 }
 .right-bar .bar-holder .alert-holder.set a {
   padding: 0;
@@ -4952,23 +4963,45 @@ input[type="password"]::-ms-reveal {
   background: #a4f5a3;
   justify-content: center;
   letter-spacing: 0.015em;
-  box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
-    8px 8px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: -8px -8px 20px rgba(130, 140, 155, 0.25),
+    8px 8px 20px rgba(18, 16, 16, 0.25);
 }
+.session-list li:hover {
+  background: #a4f5a3;
+
+  box-shadow: -8px -8px 20px rgba(90, 98, 108, 0.25),
+    8px 8px 20px rgba(10, 10, 10, 0.25);
+}
+
 .session-list li:nth-child(2) {
   background: #adf4de;
+}
+.session-list li:nth-child(2):hover {
+  background: #a5edd6;
 }
 .session-list li:nth-child(3) {
   background: #2dc2ba;
 }
+.session-list li:nth-child(3):hover {
+  background: #22a49ed1;
+}
 .session-list li:nth-child(4) {
   background: #20d69b;
+}
+.session-list li:nth-child(4):hover {
+  background: #1ec993e0;
 }
 .session-list li:nth-child(5) {
   background: #a9d18e;
 }
+.session-list li:nth-child(5):hover {
+  background: #9fc685e2;
+}
 .session-list li:nth-child(6) {
   background: #0081ae;
+}
+.session-list li:nth-child(6):hover {
+  background: #017ca8;
 }
 .session-list.over-view li {
   background: #4f77aa;
@@ -5003,6 +5036,10 @@ input[type="password"]::-ms-reveal {
   justify-content: space-between;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
     8px 8px 20px rgba(0, 0, 0, 0.25);
+}
+.topic-list li:hover {
+  box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.468),
+    8px 8px 20px rgba(0, 0, 0, 0.404);
 }
 .topic-list li.head {
   background: #8faadc;
@@ -5082,6 +5119,11 @@ input[type="password"]::-ms-reveal {
   box-shadow: -5px -4px 9px 2px rgb(201 200 200 / 50%),
     4px 4px 6px rgb(104 132 157 / 20%);
 }
+.excersice-video-holder .video-columns .column .video-box a.play:hover {
+  box-shadow: -5px -4px 9px 2px rgba(209, 204, 204, 0.5),
+    4px 4px 6px rgba(86, 110, 131, 0.2);
+  background: #135c6f;
+}
 
 /*sleep-clinic-holder*/
 .sleep-clinic-holder {
@@ -5109,6 +5151,10 @@ input[type="password"]::-ms-reveal {
   justify-content: space-between;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
     8px 8px 20px rgba(0, 0, 0, 0.25);
+}
+.stress-holder .stress-box:hover {
+  box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.338),
+    8px 8px 20px rgba(0, 0, 0, 0.308);
 }
 .stress-holder .stress-box img {
   width: 75px;
@@ -5343,6 +5389,7 @@ input[type="password"]::-ms-reveal {
   align-items: center;
   border-bottom: 1px solid #6b80a5;
 }
+
 .journal-holder .journal-box .text-box .date-box {
   width: 70px;
   margin: 0 30px 0 0;
@@ -5696,6 +5743,10 @@ input[type="password"]::-ms-reveal {
   justify-content: center;
   box-shadow: -8px -8px 20px rgba(122, 134, 151, 0.25),
     8px 8px 20px rgba(0, 0, 0, 0.25);
+}
+.stick-holder .column .box-1:hover {
+  box-shadow: -8px -8px 20px rgba(202, 144, 151, 0.25),
+    8px 8px 20px rgba(0, 0, 0, 0.55);
 }
 .stick-holder .column:nth-child(1) .box-1:nth-child(1):after {
   top: 80px;
@@ -7348,6 +7399,7 @@ a.plyr__controls__item.plyr__control:hover,
   text-transform: capitalize;
   color: #687b9e;
 }
+
 .calander-holder .left-calc .time-box {
   display: flex;
   align-items: center;
@@ -7365,6 +7417,7 @@ a.plyr__controls__item.plyr__control:hover,
   color: #51befc;
   padding: 3px 12px;
   cursor: pointer;
+  margin: 0px 3px;
 }
 .calander-holder .left-calc .time-box em:hover,
 .calander-holder .left-calc .time-box em.active {
@@ -7893,6 +7946,7 @@ div.ck-editor__editable {
   line-height: 24px;
   padding: 20px 20px 20px 0;
 }
+
 .panel-default {
   display: flex;
   flex-direction: column;
@@ -11820,6 +11874,7 @@ div.ck-editor__editable {
     top: 40px;
     border-radius: 12px;
   }
+
   .custom-select-trigger:after {
     top: -3px;
     right: 6px;
@@ -12340,6 +12395,14 @@ div.ck-editor__editable {
   padding: 0 0px 0 10px;
   display: flex;
   align-items: center;
+}
+.custom-select-trigger:hover {
+  background: rgba(196, 196, 196, 0.25);
+  box-shadow: -4px -4px 10px rgb(122 134 151 / 25%),
+    4px 4px 14px rgb(0 0 0 / 25%);
+}
+.custom-select-trigger:hover.custom-select-trigger {
+  color: white;
 }
 .custom-options {
   top: 40px;
