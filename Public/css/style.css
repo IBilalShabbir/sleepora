@@ -4276,7 +4276,7 @@ input[type="password"]::-ms-reveal {
 
 .slider_holder {
   width: 100%;
-  max-width: 900px;
+  max-width: 950px;
   margin: 80px auto;
 }
 .slider_holder .s-box {
@@ -4472,11 +4472,11 @@ input[type="password"]::-ms-reveal {
 }
 
 .slider-for .slick-content .right-content .radio-box input {
-  padding: 0;
+  padding: 10px;
   height: initial;
   width: initial;
   margin-bottom: 0;
-  display: none;
+  display: flex;
   cursor: pointer;
 }
 
@@ -4507,7 +4507,60 @@ input[type="password"]::-ms-reveal {
   margin-left: 30px;
   background: #a09d9d;
 }
+.container {
+  width: 100%;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  cursor: pointer;
+  position: relative;
+  text-transform: capitalize;
+  flex-direction: row-reverse;
+  padding: 0px;
+  margin-bottom: 0.5em;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 50px;
+}
+.checkmark {
+  position: absolute;
+  top: -3px;
+  right: 100px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
 
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  right: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 .slider-for
   .slick-content
   .right-content
@@ -8040,6 +8093,9 @@ div.ck-editor__editable {
   .excersice-video-holder {
     margin: 140px auto 0 100px;
   }
+  .bespoke-holder {
+    margin: 100px auto 0 100px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -8185,6 +8241,9 @@ div.ck-editor__editable {
     width: calc(100% - 1em);
     max-width: 100%;
     margin: 140px auto;
+  }
+  .bespoke-holder {
+    margin: 100px auto;
   }
 }
 @media (max-width: 1350px) {
