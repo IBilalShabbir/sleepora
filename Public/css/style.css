@@ -9,6 +9,16 @@ body {
   -webkit-box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 10px;
+}
 a,
 button {
   outline: none;
@@ -2540,9 +2550,6 @@ img {
   border-radius: 30px;
   padding: 10px 15px;
 }
-.slick-slide {
-  position: relative;
-}
 
 #editor {
   box-shadow: 0 0 2px #ccc;
@@ -4679,11 +4686,15 @@ input[type="password"]::-ms-reveal {
   box-shadow: none;
   background: transparent;
 }
-
-.video-slider {
-  max-width: 74%;
-  margin: 60px 0 0 18%;
+.slick-slide {
+  position: relative;
 }
+.video-slider {
+  width: 100%;
+  max-width: 800px;
+  margin: 60px auto;
+}
+
 .video-slider h2 {
   color: #303030 !important;
   font-weight: 500 !important;
@@ -7627,7 +7638,7 @@ input {
 
 .editor_holder {
   display: flex;
-  max-width: 1200px;
+  max-width: 1000px;
   align-items: center;
   margin: 160px auto 0;
   justify-content: space-between;
@@ -8065,8 +8076,8 @@ div.ck-editor__editable {
 
 @media (max-width: 1699px) {
   .video-slider {
-    width: 71%;
-    margin: 60px 0 0 21%;
+    width: 100%;
+    max-width: 800px;
   }
   .faq-holder {
     max-width: 800px;
@@ -8160,8 +8171,9 @@ div.ck-editor__editable {
     margin: 80px auto;
   }
   .video-slider {
-    width: 68%;
-    margin: 60px 0 0 23%;
+    width: 100%;
+    max-width: 780px;
+    margin: 60px 0 0 22%;
   }
   .video-slider iframe {
     width: 100%;
@@ -8201,9 +8213,10 @@ div.ck-editor__editable {
     width: 330px;
   }
   .video-slider {
-    width: 64%;
-    margin: 60px 0 0 26%;
+    width: 56%;
+    margin: 60px 0 0 22%;
   }
+
   .communicate-holder {
     max-width: 800px;
   }
@@ -12089,9 +12102,7 @@ div.ck-editor__editable {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.support-holder .column {
-  width: 50%;
-}
+
 .support-holder .column span {
   margin: 30px 20px;
 }
