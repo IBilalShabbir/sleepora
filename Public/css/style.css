@@ -5404,18 +5404,20 @@ input[type="password"]::-ms-reveal {
 /*Faq*/
 .faq-holder {
   display: flex;
-  max-width: 100%;
-  margin: 160px 0 0 0px;
+  width: 100%;
+  max-width: 900px;
+  margin: 160px auto;
   justify-content: space-between;
 }
 .faq-holder .left-column {
   width: 100%;
-  max-width: 350px;
+  max-width: 100%;
   padding: 24px 10px;
 }
 /** Custom Select **/
 .custom-select-wrapper {
   width: 100%;
+  max-width: 100%;
   position: relative;
   user-select: none;
   display: inline-block;
@@ -7840,6 +7842,7 @@ div.ck-editor__editable {
 }
 #accordion .panel {
   flex: 1;
+  width: 100%;
   max-width: 1000px;
   display: flex !important;
   justify-content: space-between !important;
@@ -7876,6 +7879,11 @@ div.ck-editor__editable {
   font-size: 20px;
   line-height: 24px;
   padding: 20px 20px 20px 0;
+}
+.panel-default {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .panel-default > .panel-heading a:after {
   content: "";
@@ -8058,9 +8066,16 @@ div.ck-editor__editable {
     width: 71%;
     margin: 60px 0 0 21%;
   }
-  #accordion .panel {
+  .faq-holder {
+    max-width: 800px;
+    margin: 160px 0 0 150px;
+  }
+  /* #accordion .panel {
     max-width: 800px;
   }
+  .faq-holder .left-column {
+    max-width: 800px;
+  } */
   .health-table {
     margin-left: 10em;
   }
@@ -8106,9 +8121,7 @@ div.ck-editor__editable {
     max-width: 800px;
     margin-left: 150px;
   }
-  #accordion .panel {
-    max-width: 540px;
-  }
+
   .alert-section {
     margin: 260px 0 100px 30px;
   }
@@ -8207,6 +8220,10 @@ div.ck-editor__editable {
   #accordion .panel {
     flex: 1;
     max-width: 100%;
+  }
+  .faq-holder {
+    max-width: 100%;
+    margin: 160px auto;
   }
   .alert-section {
     margin: 80px auto;
@@ -8341,9 +8358,7 @@ div.ck-editor__editable {
   .custom-select-trigger {
     font-size: 24px;
   }
-  .faq-holder {
-    margin: 140px 0 0 0px;
-  }
+
   .holder-new h2 {
     width: 100%;
     max-width: 100% !important;
@@ -9527,10 +9542,7 @@ div.ck-editor__editable {
   .right-bar.new {
     padding: 30px 0 0;
   }
-  .faq-holder {
-    max-width: 100%;
-    margin: 140px 0 0 10px;
-  }
+
   .tab-label {
     font-size: 18px !important;
     padding: 11px 44px 11px 15px !important;
@@ -9956,9 +9968,7 @@ div.ck-editor__editable {
   .custom-select-trigger {
     font-size: 24px;
   }
-  .faq-holder {
-    margin: 140px 0 0 0px;
-  }
+
   .holder-new h2 {
     position: static;
     margin: 45px 0 65px 25px;
@@ -11149,10 +11159,7 @@ div.ck-editor__editable {
   .right-bar.new {
     padding: 30px 0 0;
   }
-  .faq-holder {
-    max-width: 100%;
-    margin: 140px 0 0 10px;
-  }
+
   .tab-label {
     font-size: 18px !important;
     padding: 11px 44px 11px 15px !important;
@@ -13836,6 +13843,7 @@ div.ck-editor__editable {
   #accordion .panel-title {
     font-size: 12px !important;
   }
+
   .panel-default > .panel-heading a[aria-expanded="false"]:after,
   .panel-default > .panel-heading a[aria-expanded="true"]:after {
     width: 12px;
