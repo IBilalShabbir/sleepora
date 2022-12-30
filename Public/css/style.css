@@ -4292,6 +4292,7 @@ input[type="password"]::-ms-reveal {
 }
 .slider_holder .slick-initialized .slick-slide {
   padding: 0 10px;
+  overflow: auto;
 }
 .slider_holder .s-box .month {
   color: #fff;
@@ -4344,8 +4345,9 @@ input[type="password"]::-ms-reveal {
   background: url(../img/calendar-2.png) no-repeat;
 }
 .slider_holder .slider-nav {
-  max-width: 90%;
-  margin: 0 auto 20px;
+  max-width: 65%;
+  /* margin: 0 auto 20px; */
+  margin: 25px 24px 20px;
 }
 .slider_holder .slick-prev.slick-arrow {
   top: 50%;
@@ -9809,6 +9811,9 @@ div.ck-editor__editable {
 }
 
 @media (max-width: 1399px) {
+  .slider-for .slick-content .left-content {
+    margin-right: 1em;
+  }
   .key-area {
     max-width: 90%;
     margin: 260px 0 0;
@@ -9875,6 +9880,10 @@ div.ck-editor__editable {
   }
 }
 @media (max-width: 1350px) {
+  .slider_holder .slider-nav {
+    max-width: 80%;
+    margin: 0 auto 20px;
+  }
   .health-table {
     width: calc(100% - 2em);
     margin: 100px auto;
@@ -9899,8 +9908,17 @@ div.ck-editor__editable {
   .left-bar {
     margin-top: 2em;
   }
+  .slider-for .slick-content .left-content {
+    margin-right: 1.5em;
+  }
 }
 @media (max-width: 1299px) {
+  .slider_holder {
+    width: 100%;
+  }
+  .slider_holder .slick-initialized .slick-slide {
+    padding: 0px;
+  }
   .dash-box .d-top-holder {
     flex-wrap: wrap;
   }
@@ -10371,6 +10389,9 @@ div.ck-editor__editable {
   }
 }
 @media (max-width: 991px) {
+  .slider-for .slick-content .left-content {
+    margin-right: 0em;
+  }
   .video_section .video_holder .text-box {
     width: 170px;
   }
