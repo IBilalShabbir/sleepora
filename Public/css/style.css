@@ -344,7 +344,6 @@ img {
   margin: 250px auto 40px;
   /*background: url(../img/39.png) no-repeat;*/
   background-size: 100% 100%;
-  transform: scale(0.7);
 }
 /*.circle:after{
   top: 62px;
@@ -4067,7 +4066,6 @@ input[type="password"]::-ms-reveal {
   justify-content: space-between;
   box-shadow: inset -6px -6px 15px rgba(255, 255, 255, 0.78),
     inset 6px 6px 16px #d1deed;
-  transform: scale(0.7);
 }
 .search-box-new input[type="search"] {
   border: 0;
@@ -4229,7 +4227,6 @@ input[type="password"]::-ms-reveal {
   text-align: center;
   padding: 43px 0;
   display: none;
-  transform: scale(0.7);
 }
 .btn-holder-top a {
   margin: 0 0 20px;
@@ -9904,8 +9901,7 @@ div.ck-editor__editable {
       max-width: 700px;
       /* margin: 60px 0 0 23%; */
 }
-*/ 
-.video-slider iframe {
+*/ .video-slider iframe {
   width: 100%;
 }
 .sleep-score-holder {
