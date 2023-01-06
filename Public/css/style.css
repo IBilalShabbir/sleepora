@@ -847,9 +847,6 @@ img {
   font-size: 20px;
   max-width: 95%;
 }
-#faq .btn-header-link strong:hover {
-  background-color: #004e85;
-}
 
 #faq .card-body {
   padding: 10px 0;
@@ -4308,7 +4305,6 @@ input[type="password"]::-ms-reveal {
 }
 .slider_holder .slick-initialized .slick-slide {
   padding: 0 10px;
-  overflow: auto;
 }
 .slider_holder .s-box .month {
   color: #fff;
@@ -6602,7 +6598,6 @@ input[type="password"]::-ms-reveal {
   min-height: 520px;
   align-items: center;
   margin: 260px auto 0;
-  justify-content: space-between;
 }
 .key-area .three-columns {
   width: 68%;
@@ -7683,7 +7678,13 @@ input {
   display: block;
   padding: 20px 10px;
 }
-
+.time-holder {
+  background: #fff;
+  width: 100% !important;
+  min-width: 100% !important;
+  padding: 20px;
+  border-radius: 10px;
+}
 /*EDITOR*/
 
 .editor_holder {
@@ -8147,10 +8148,19 @@ div.ck-editor__editable {
     margin: 140px auto 0 100px;
   }
 }
+@media (max-width: 1745px) {
+  .anixety-holder {
+    margin: 100px 0 0 80px;
+  }
+  .slider_holder .slick-initialized .slick-slide {
+    padding: 0px 0px;
+  }
+}
 @media (max-width: 1630px) {
   .prescription-holder .column-holder .column-3 {
     width: 55%;
   }
+
   .prescription-holder .column-holder .column-3 p {
     width: 60% !important;
   }
@@ -8182,14 +8192,13 @@ div.ck-editor__editable {
   }
 }
 @media (max-width: 1500px) {
-  .communicate-holder {
-    max-width: 900px;
+  .stick-holder {
+    margin: 100px 0 0 50px;
   }
   .communicate-holder__active {
     max-width: 800px;
     margin-left: 150px;
   }
-
   .alert-section {
     margin: 260px 0 100px 30px;
   }
@@ -8210,7 +8219,7 @@ div.ck-editor__editable {
     width: 48%;
   }
   .anixety-holder {
-    max-width: 950px;
+    max-width: 850px;
   }
   .anixety-holder .anx-column span {
     font-size: 20px;
@@ -8219,10 +8228,11 @@ div.ck-editor__editable {
     margin-left: 2em;
   }
   .calander-holder {
-    max-width: 950px;
+    margin: 240px 0 auto 30px;
   }
+
   .slider_holder {
-    max-width: 88%;
+    max-width: 80%;
     margin: 80px auto;
   }
   .video-slider {
@@ -8233,7 +8243,7 @@ div.ck-editor__editable {
     width: 100%;
   }
   .sleep-score-holder {
-    padding-right: 10em;
+    margin: 150px 0 0 30px;
   }
   .carousel-slider-holder {
     margin: 100px 0 0 150px;
@@ -8255,7 +8265,11 @@ div.ck-editor__editable {
     margin: 260px 0 0;
   }
   .key-area .three-columns {
-    width: 67%;
+    width: 66%;
+  }
+
+  .communicate-holder__active {
+    margin-left: 20px;
   }
   .key-area .custom-select-trigger {
     font-size: 14px;
@@ -8268,23 +8282,39 @@ div.ck-editor__editable {
   }
   .video-slider {
     width: 56%;
-    margin: 60px 0 0 22%;
+    margin: 60px 0 0 5%;
   }
 
-  .communicate-holder {
-    max-width: 800px;
-  }
   .prescription-holder {
     margin: 140px auto 0 20px;
   }
+  .circle {
+    margin: 250px 0 auto 250px;
+  }
+  .journal-holder {
+    margin: 250px 0 auto 50px;
+  }
+  .left-bar {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 5%;
+  }
+  .left-bar {
+    margin-top: 2em;
+    left: 0;
+  }
 }
 
-@media (max-width: 1355px) {
+@media (max-width: 1200px) {
   .calander-holder {
     justify-content: space-between;
   }
   .new-circle {
     right: -50px;
+  }
+  .stick-holder {
+    margin: 100px auto;
   }
   .wrapper-new .holder-new {
     padding-bottom: 10em;
@@ -8347,26 +8377,34 @@ div.ck-editor__editable {
   .editor_holder .home input[type="submit"] {
     margin-top: 40px;
   }
+  .circle {
+    margin: 250px auto;
+  }
 }
 @media (max-width: 1350px) {
-  .health-table {
-    width: calc(100% - 2em);
-    margin: 100px auto;
-  }
-  .communicate-holder {
-    max-width: 930px;
-  }
   .communicate-holder .column.center .center-chat img.curve-1 {
     left: -40px;
   }
   .communicate-holder .column.center .center-chat img.curve-2 {
     left: -105px;
   }
-  .holder-new h2 {
-    max-width: 37%;
-  }
+
   .prescription-holder {
     max-width: 850px;
+  }
+  .sleep-score-holder {
+    width: 100%;
+    max-width: 850px;
+  }
+  .calander-holder {
+    max-width: 1000px;
+  }
+  .excersice-video-holder {
+    max-width: 900px;
+    margin: 140px auto 0 20px;
+  }
+  .faq-holder {
+    margin: 160px 0 auto 80px;
   }
 }
 @media (max-width: 1299px) {
@@ -8437,6 +8475,10 @@ div.ck-editor__editable {
   }
   .pages {
     padding: 0px;
+  }
+  .excersice-video-holder {
+    max-width: 890px;
+    margin: 140px auto 0 10px;
   }
 }
 @media (max-width: 1199px) {
@@ -8753,8 +8795,7 @@ div.ck-editor__editable {
   }
   .left-bar {
     z-index: 99;
-    left: -310px;
-    position: fixed;
+    left: 0px;
     transition: all 0.5s linear;
     -webkit-transition: all 0.5s linear;
   }
@@ -8835,10 +8876,6 @@ div.ck-editor__editable {
   .resource-holder {
     width: 80%;
   }
-  .faq-holder .right-column {
-    width: 61%;
-  }
-
   .holder-new h2 {
     max-width: 32%;
     font-size: 33px;
@@ -9333,20 +9370,7 @@ div.ck-editor__editable {
   .calander-holder {
     flex-wrap: wrap;
   }
-  .time-holder {
-    background: #fff;
-    width: 40%;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  .calander-holder .left-calc {
-    width: 100%;
-    background: transparent;
-    padding: 0;
-    box-shadow: none;
-    display: flex;
-    justify-content: space-around;
-  }
+
   .calander-holder .left-calc .reminder {
     font-size: 12px;
   }
@@ -9932,12 +9956,23 @@ div.ck-editor__editable {
   .prescription-holder .p-holder:nth-child(3) .column-1 {
     width: 330px;
   }
+  .middle-slide-holder {
+    margin: 180px 0 auto 100px;
+  }
 }
 
 @media (max-width: 1355px) {
-  .calander-holder {
-    justify-content: space-between;
+  .support-holder {
+    margin: 0 auto !important;
   }
+  .stick-holder {
+    padding-right: 0em;
+    padding-bottom: 2em;
+  }
+  .bespoke-holder {
+    margin: 100px 0 auto 20px;
+  }
+
   .new-circle {
     right: -50px;
   }
@@ -9948,31 +9983,17 @@ div.ck-editor__editable {
     flex: 1;
     max-width: 100%;
   }
-  .alert-section {
-    margin: 80px auto;
-  }
+
   .journal-holder {
     padding-right: 0em;
   }
   .mind_holder {
-    padding-right: 0em;
+    margin: 0px 0 auto 20px;
   }
   .sleep-score-holder {
     padding-right: 0em;
   }
-  .prescription-holder {
-    width: calc(100% - 1em);
-    max-width: 100%;
-    margin: 100px auto;
-  }
-  .left-bar {
-    /* top: auto;
-    bottom: 200px; */
-    position: relative;
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-  }
+
   /* .video-slider {
     margin-bottom: 1000px;
   } */
@@ -9983,15 +10004,7 @@ div.ck-editor__editable {
 }
 @media (max-width: 1350px) {
   .slider_holder .slider-nav {
-    max-width: 80%;
-    margin: 0 auto 20px;
-  }
-  .health-table {
-    width: calc(100% - 2em);
-    margin: 100px auto;
-  }
-  .communicate-holder {
-    max-width: 930px;
+    margin: 0 0 auto 20px;
   }
   .communicate-holder .column.center .center-chat img.curve-1 {
     left: -40px;
@@ -9999,30 +10012,28 @@ div.ck-editor__editable {
   .communicate-holder .column.center .center-chat img.curve-2 {
     left: -105px;
   }
-  .holder-new h2 {
-    max-width: 37%;
-  }
-
   .editor_holder .home {
     margin-left: 1em;
     width: 75%;
-  }
-  .left-bar {
-    margin-top: 2em;
-    left: 0;
   }
 
   .slider-for .slick-content .left-content {
     margin-right: 1.5em;
   }
+  .health-table {
+    width: 100%;
+    max-width: 890px;
+    padding-left: 0em;
+    margin-left: 10px;
+  }
+  .slider_holder {
+    max-width: 90%;
+  }
+  .carousel-slider-holder {
+    margin: 100px 0 0 50px;
+  }
 }
 @media (max-width: 1299px) {
-  .slider_holder {
-    width: 100%;
-  }
-  .slider_holder .slick-initialized .slick-slide {
-    padding: 0px;
-  }
   .dash-box .d-top-holder {
     flex-wrap: wrap;
   }
@@ -10055,6 +10066,13 @@ div.ck-editor__editable {
   .mind_holder .mind_columns .center-holder {
     width: 250px;
     height: 250px;
+  }
+  .slider_holder {
+    max-width: 95%;
+  }
+
+  .slider-for .slick-content {
+    max-width: 850px;
   }
 }
 @media (max-width: 1250px) {
@@ -10460,9 +10478,6 @@ div.ck-editor__editable {
   .resource-holder {
     width: 80%;
   }
-  .faq-holder .right-column {
-    width: 61%;
-  }
 
   .holder-new h2 {
     max-width: 32%;
@@ -10487,11 +10502,7 @@ div.ck-editor__editable {
     margin-right: 30em !important;
   }
 }
-@media (max-width: 1355px) {
-  .support-holder {
-    margin: 0 auto !important;
-  }
-}
+
 @media (max-width: 991px) {
   .slider-for .slick-content .left-content {
     margin-right: 0em;
@@ -10959,19 +10970,18 @@ div.ck-editor__editable {
   .calander-holder {
     flex-wrap: wrap;
   }
-  .time-holder {
-    background: #fff;
-    width: 40%;
-    padding: 20px;
-    border-radius: 10px;
-  }
+
   .calander-holder .left-calc {
-    width: 100%;
+    width: calc(100% - 1em);
+    max-width: 500px;
+    margin: 5px auto;
     background: transparent;
     padding: 0;
     box-shadow: none;
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+  }
+  .time-holder {
+    margin: 5px auto;
   }
   .calander-holder .left-calc .reminder {
     font-size: 12px;
@@ -11796,7 +11806,6 @@ div.ck-editor__editable {
   }
   .time-holder {
     padding: 20px 10px;
-    width: 48%;
   }
   .calander-holder .left-calc .reminder button {
     padding: 6px 20px;
@@ -11947,7 +11956,7 @@ div.ck-editor__editable {
     flex-direction: column;
   }
 }
-@media (max-width: 1355px) {
+@media (max-width: 1200px) {
   .sidebar__new {
     max-width: 100%;
     flex-direction: row;
@@ -11958,13 +11967,8 @@ div.ck-editor__editable {
     top: auto;
     border-radius: 50px;
   }
-
   .sidebar__new__logo {
     display: none;
-  }
-  .stick-holder {
-    padding-right: 0em;
-    padding-bottom: 2em;
   }
   .sidebar__new__entry__special {
     display: none;
@@ -11985,7 +11989,60 @@ div.ck-editor__editable {
   .sidebar__new__entry__reverse {
     display: none;
   }
+  .bespoke-holder {
+    margin: 100px auto;
+  }
+  .prescription-holder {
+    width: calc(100% - 1em);
+    max-width: 100%;
+    margin: 100px auto;
+  }
+  .calander-holder {
+    margin: 240px auto;
+  }
+  .excersice-video-holder {
+    max-width: 900px;
+    margin: 140px auto;
+  }
+  .faq-holder {
+    margin: 160px auto;
+  }
+  .health-table {
+    width: 100%;
+    max-width: 890px;
+    padding-left: 30px;
+    margin-left: 0;
+    margin: 260px auto;
+  }
+  .slider-for .slick-content {
+    max-width: 100%;
+  }
+  .middle-slide-holder {
+    margin: 180px auto;
+  }
+  .mind_holder {
+    margin: 0 auto;
+    padding-right: 0em;
+  }
+  .slider_holder .slider-nav {
+    max-width: 86%;
+    margin: 0 auto;
+  }
+  .slider_holder .slick-initialized .slick-slide {
+    padding: 0px 10px;
+  }
+  .support-holder {
+    margin-right: auto !important;
+    margin-top: 2em;
+  }
+  .carousel-slider-holder {
+    margin: 100px auto;
+  }
+  .left-bar {
+    margin: 0 auto;
+  }
 }
+
 @media (max-width: 900px) {
   .sidebar__new__entry {
     width: 60px;
@@ -12479,58 +12536,13 @@ div.ck-editor__editable {
     flex-direction: column;
   }
 }
-@media (max-width: 1355px) {
-  .sidebar__new {
-    max-width: 100%;
-    flex-direction: row;
-    height: fit-content;
-    bottom: 0px;
-    padding: 0.5em 10em;
-    justify-content: space-between;
-    top: auto;
-    border-radius: 50px;
-  }
 
-  .sidebar__new__logo {
-    display: none;
-  }
-  .stick-holder {
-    padding-right: 0em;
-    padding-bottom: 2em;
-  }
-  .sidebar__new__entry__special {
-    display: none;
-  }
-  .sidebar__new__entry {
-    margin-top: 0px;
-    width: 100px;
-    border-radius: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .sidebar__new__entry svg {
-    margin-right: 0em;
-    margin-bottom: 0.2em;
-  }
-
-  .sidebar__new__entry__reverse {
-    display: none;
-  }
-}
 @media (max-width: 900px) {
   .sidebar__new__entry {
     width: 60px;
   }
 }
-@media (max-width: 700px) {
-  .sidebar__new {
-    padding: 0.5em 2em;
-  }
-  .sidebar__new__entry span {
-    font-size: 12px;
-  }
-}
+
 @media (max-width: 575px) {
   .video_section .video_holder {
     margin: 0 0 40px;
@@ -13950,7 +13962,6 @@ div.ck-editor__editable {
     margin: 100px 10px;
   }
   .time-holder {
-    width: 100%;
     padding: 20px;
     margin: 0 0 30px;
   }
@@ -15461,7 +15472,6 @@ div.ck-editor__editable {
     margin: 100px 10px;
   }
   .time-holder {
-    width: 100%;
     padding: 20px;
     margin: 0 0 30px;
   }
