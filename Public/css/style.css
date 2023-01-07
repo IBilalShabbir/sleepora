@@ -8328,6 +8328,7 @@ div.ck-editor__editable {
   }
   .wrapper-new .holder-new {
     padding-bottom: 10em;
+    right: -25px;
   }
   #accordion .panel {
     flex: 1;
