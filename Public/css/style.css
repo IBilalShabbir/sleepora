@@ -10088,6 +10088,9 @@ div.ck-editor__editable {
     max-width: 850px;
   }
 }
+.sidebar__new__entry__time {
+  font-size: 12px;
+}
 @media (max-width: 1250px) {
   .video_section {
     width: 76%;
@@ -11998,7 +12001,9 @@ div.ck-editor__editable {
     margin-right: 0em;
     margin-bottom: 0.2em;
   }
-
+  .sidebar__new__entry__time {
+    font-size: 10px;
+  }
   .sidebar__new__entry__reverse {
     display: none;
   }
