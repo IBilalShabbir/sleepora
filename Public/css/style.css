@@ -8198,6 +8198,10 @@ div.ck-editor__editable {
   .support-holder {
     margin-right: 30em !important;
   }
+  .editor_holder .left-img span {
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 1500px) {
   .stick-holder {
@@ -8303,6 +8307,13 @@ div.ck-editor__editable {
   .journal-holder {
     margin: 250px 0 auto 50px;
   }
+  .editor_holder .home input[type="submit"] {
+    margin: 20px 0 0 30px;
+    padding: 10px 20px;
+  }
+  .editor_holder .left-img span {
+    margin-bottom: 2px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -8388,6 +8399,14 @@ div.ck-editor__editable {
   .left-bar {
     margin-top: 2em;
     left: 0;
+  }
+  .editor_holder .left-img span {
+    margin-bottom: 40px;
+  }
+  .editor_holder .home input[type="submit"] {
+    margin: 20px;
+    margin-top: 40px;
+    padding: 10px 47px;
   }
 }
 @media (max-width: 1350px) {
