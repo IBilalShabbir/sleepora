@@ -8281,8 +8281,9 @@ div.ck-editor__editable {
     width: 330px;
   }
   .video-slider {
-    width: 56%;
-    margin: 60px 0 0 5%;
+    width: 100%;
+    max-width: 600px;
+    margin: 60px auto;
   }
 
   .prescription-holder {
@@ -8293,16 +8294,6 @@ div.ck-editor__editable {
   }
   .journal-holder {
     margin: 250px 0 auto 50px;
-  }
-  .left-bar {
-    position: relative;
-    width: 100%;
-    max-width: 700px;
-    margin: 0 0 0 5%;
-  }
-  .left-bar {
-    margin-top: 2em;
-    left: 0;
   }
 }
 
@@ -8380,6 +8371,16 @@ div.ck-editor__editable {
   .circle {
     margin: 250px auto;
   }
+  .left-bar {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 5%;
+  }
+  .left-bar {
+    margin-top: 2em;
+    left: 0;
+  }
 }
 @media (max-width: 1350px) {
   .communicate-holder .column.center .center-chat img.curve-1 {
@@ -8446,6 +8447,10 @@ div.ck-editor__editable {
   }
   .editor_holder {
     margin: 0 auto;
+  }
+  .video-slider{
+    max-width: 550px;
+    margin: 60px auto;
   }
 }
 @media (max-width: 1580px) {
