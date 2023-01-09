@@ -8109,7 +8109,21 @@ div.ck-editor__editable {
   border-radius: 50px;
   background-color: rgba(244, 244, 244, 0.1);
 }
-
+.sidebar__new__entry__yellow__entry {
+  margin-top: 1em;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.7em 1.5em;
+  border-radius: 50px;
+  background-color: rgba(244, 244, 244, 0.1);
+}
+.sidebar__new__entry__yellow__entry:hover {
+  background-color: rgb(255, 255, 102) !important;
+}
+.sidebar__new__entry__time {
+  font-size: 13px;
+}
 .sidebar__new__entry span {
   text-align: center;
 }
@@ -8328,7 +8342,6 @@ div.ck-editor__editable {
   }
   .wrapper-new .holder-new {
     padding-bottom: 10em;
-    right: -25px;
   }
   #accordion .panel {
     flex: 1;
@@ -12022,7 +12035,7 @@ div.ck-editor__editable {
     margin-bottom: 0.2em;
   }
   .sidebar__new__entry__time {
-    font-size: 10px;
+    font-size: 9px;
   }
   .sidebar__new__entry__reverse {
     display: none;
