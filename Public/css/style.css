@@ -4710,7 +4710,7 @@ input[type="password"]::-ms-reveal {
   max-width: inherit !important;
 }
 .video-slider iframe {
-  width: 900px;
+  width: 100%;
   /*height: 448px;*/
   height: 600px;
   display: block;
@@ -7707,13 +7707,14 @@ input {
   font-weight: 600;
   line-height: 28px;
   text-align: center;
-  text-align: center;
   text-transform: capitalize;
 }
 
 .editor_holder .home {
-  width: 80%;
+  width: 100%;
   margin: 30px;
+  margin-left: 0em;
+  margin-right: 0em;
   padding: 30px 20px 0;
   background: #ffffff;
   border-radius: 20px;
@@ -7776,8 +7777,9 @@ div.ck-editor__editable {
 }
 .editor_holder .home input[type="submit"] {
   margin: 20px;
+  margin-left: 0em;
   display: inline-block;
-  padding: 10px 47px;
+  padding: 10px 30px;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
@@ -7786,7 +7788,7 @@ div.ck-editor__editable {
   background: #fffa79;
   border-radius: 8px;
   position: absolute;
-  left: -20px;
+  left: 0px;
   bottom: 60px;
   box-shadow: -5px -4px 9px 2px rgba(201, 200, 200, 0.5),
     4px 4px 6px rgba(104, 132, 157, 0.2);
@@ -8152,7 +8154,10 @@ div.ck-editor__editable {
   color: #7284a6;
 }
 /*Media Quries*/
-
+.editor_holder .left-img span {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
 @media (max-width: 1699px) {
   .video-slider {
     width: 100%;
@@ -8216,10 +8221,6 @@ div.ck-editor__editable {
 @media (max-width: 1580px) {
   .support-holder {
     margin-right: 30em !important;
-  }
-  .editor_holder .left-img span {
-    font-size: 12px;
-    margin-bottom: 40px;
   }
 }
 @media (max-width: 1500px) {
@@ -8326,13 +8327,13 @@ div.ck-editor__editable {
   .journal-holder {
     margin: 250px 0 auto 50px;
   }
-  .editor_holder .home input[type="submit"] {
+  /* .editor_holder .home input[type="submit"] {
     margin: 20px 0 0 30px;
     padding: 10px 20px;
   }
   .editor_holder .left-img span {
     margin-bottom: 2px;
-  }
+  } */
 }
 
 @media (max-width: 1200px) {
@@ -8403,9 +8404,7 @@ div.ck-editor__editable {
   .editor_holder .left-img span {
     font-size: 12px;
   }
-  .editor_holder .home input[type="submit"] {
-    margin-top: 40px;
-  }
+
   .circle {
     margin: 250px auto;
   }
@@ -8424,6 +8423,7 @@ div.ck-editor__editable {
   }
   .editor_holder .home input[type="submit"] {
     margin: 20px;
+    margin-left: 0px;
     margin-top: 40px;
     padding: 10px 47px;
   }
@@ -9369,15 +9369,11 @@ div.ck-editor__editable {
     width: 100%;
     font-size: 18px;
   }
-  .editor_holder .home {
-    width: 97%;
-    margin: 20px;
-    margin: 20px 20px 80px;
-  }
+
   .editor_holder .home input[type="submit"] {
     left: 0;
     right: 0;
-    bottom: 0;
+    top: 200px;
     width: 150px;
     margin: 20px auto;
   }
@@ -9385,6 +9381,9 @@ div.ck-editor__editable {
     display: block;
     width: 100px;
     margin: 0 0 10px;
+  }
+  .editor_holder .home {
+    width: 100% !important;
   }
   .editor_holder .home .home-head .date {
     font-size: 20px;
@@ -9979,10 +9978,6 @@ div.ck-editor__editable {
 .sleep-score-holder {
   padding-right: 10em;
 }
-.editor_holder .home {
-  margin-left: 1em;
-  width: 75%;
-}
 
 @media (max-width: 1399px) {
   .slider-for .slick-content .left-content {
@@ -10006,6 +10001,9 @@ div.ck-editor__editable {
   }
   .middle-slide-holder {
     margin: 180px 0 auto 100px;
+  }
+  .editor_holder .home {
+    width: 80%;
   }
 }
 
@@ -10967,17 +10965,10 @@ div.ck-editor__editable {
     font-size: 18px;
   }
   .editor_holder .home {
-    width: 97%;
     margin: 20px;
     margin: 20px 20px 80px;
   }
-  .editor_holder .home input[type="submit"] {
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 150px;
-    margin: 20px auto;
-  }
+
   .editor_holder .left-img img {
     display: block;
     width: 100px;
@@ -12682,10 +12673,6 @@ div.ck-editor__editable {
     top: 194px;
     width: 200px;
   }
-  .slick-track {
-    height: 500px;
-    overflow: auto;
-  }
   .tab-holder .two-columns .column h2 {
     font-size: 28px !important;
   }
@@ -13732,9 +13719,6 @@ div.ck-editor__editable {
     right: auto;
     z-index: 9;
   }
-  .video-slider .slick-track {
-    height: auto;
-  }
   .dunk-holder h3 {
     font-size: 16px;
   }
@@ -13897,9 +13881,7 @@ div.ck-editor__editable {
   #book .page .page-body p {
     font-size: 10px;
   }
-  .editor_holder {
-    flex-wrap: wrap;
-  }
+
   .editor_holder .left-img img {
     width: 40px;
   }
@@ -13946,7 +13928,7 @@ div.ck-editor__editable {
     padding: 5px;
     text-align: center;
     position: absolute;
-    top: 100%;
+    top: 140px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -14182,10 +14164,7 @@ div.ck-editor__editable {
     top: 194px;
     width: 200px;
   }
-  .slick-track {
-    height: 500px;
-    overflow: auto;
-  }
+
   .tab-holder .two-columns .column h2 {
     font-size: 28px !important;
   }
@@ -15404,11 +15383,9 @@ div.ck-editor__editable {
   .editor_holder .left-img span {
     font-size: 10px;
   }
-  .editor_holder .left-img {
-    margin: 0;
-  }
+
   .editor_holder .home {
-    margin: 10px;
+    margin: 10px auto;
     width: 100%;
     padding: 10px;
     height: 400px;
@@ -15437,14 +15414,12 @@ div.ck-editor__editable {
     height: 100px;
   }
   .editor_holder .home input[type="submit"] {
-    width: 120px;
     height: 30px;
     font-size: 10px;
     line-height: 10px;
     padding: 5px;
     text-align: center;
     position: absolute;
-    top: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
